@@ -56,8 +56,8 @@ module "cosmosdb" {
   partition_key_version    = var.partition_key_version
   partition_key_path       = var.partition_key_path
 
-  tags_complex_url = "https://api.coindesk.com/v1/bpi/currentprice.json"
-  tags_simple_url  = "https://api.agify.io?name=bella"
+  tags_complex_url = var.tags_complex_url
+  tags_simple_url  = var.tags_simple_url
 }
 
 module "rediscache" {
