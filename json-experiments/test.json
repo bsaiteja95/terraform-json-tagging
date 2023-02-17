@@ -1,0 +1,16 @@
+{
+    "name": "example_instance",
+    "environment": "prod",
+    "created_by": {
+      "user": "jdoe",
+      "department": 2
+    },
+    "roles": ["web", "db", "cache"],
+    "other_tags": {
+      "example_key": "example_value",
+      "nested_tags": {
+        "key1": "value1",
+        "key2": "value2"
+      }
+    }
+}
