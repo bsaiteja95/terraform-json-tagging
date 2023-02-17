@@ -73,6 +73,6 @@ module "rediscache" {
   redis_cache_ssl_port        = var.redis_cache_ssl_port
   redis_cache_min_tls_version = var.redis_cache_min_tls_version
 
-  tags_complex_url = "https://api.coindesk.com/v1/bpi/currentprice.json"
-  tags_simple_url  = "https://api.agify.io?name=bella"
+  tags_complex_url = var.tags_complex_url
+  tags_simple_url  = var.tags_simple_url
 }
